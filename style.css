@@ -1,0 +1,406 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+/* header */
+
+.logo .logo-text{
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 17.6px; /* 92.632% */
+    letter-spacing: -0.76px;
+    background: linear-gradient(45deg, #059669 0%, #10B981 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 767px) {
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .main-heading{
+       text-align: center;
+    }
+    .header-btn{
+      text-align: center;
+      margin-bottom: 5%;
+    }
+    .header-btn .btn-member{
+        margin-bottom: 5%;
+    }
+    .header-image img{
+        height: 100%;
+        width: 100%;
+    }
+    .grand-opening{
+        width: 350px !important;
+        height: 90px !important;
+        top: 60% !important;
+    left: 10% !important;
+     }
+     .remaining-time{
+        top: 67% !important;
+        left: 10% !important;
+        width: 302.164px !important;
+       height: 98.086px !important ;
+    }
+  }
+  @media screen and (max-width: 497px) {
+    .grand-opening{
+        width: 300px !important;
+    }
+    .remaining-time{
+        width: 292.164px !important;
+    }
+   
+}
+ 
+.main-heading h1{
+    font-family: Playfair Display;
+    color: #064E3B;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 80px;
+    margin-top:20%;
+   
+}
+.header-btn .btn-member{
+    padding: 14px 28px;
+    background: linear-gradient(0deg, #059669 0%, #36DCA5 100%);
+    border: none;
+    color: #fff;  
+    font-size: 18px;
+    line-height: 140%;
+}
+.header-btn .btn-pricing{ 
+    padding: 14px 28px;
+    border: 1px solid #10B981;
+    color:#10B981;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+    background-color: #fff;
+}
+.header-image img{
+    height: 100%;
+    
+}
+.grand-opening{
+     width: 434px;
+    height: 108px;
+    background-color: #fff;
+    position: absolute;
+    top: 72%;
+    left: -10%;
+}
+.grand-opening h3{
+    font-size: 18px;
+    color: #047857;
+    font-family: Work Sans;
+    font-weight: 700;
+}
+.grand-opening p{ 
+    color: #059669;
+   font-family: Work Sans;
+   font-size: 14px;
+   font-weight: 700;
+}
+.remaining-time{
+    position: absolute;
+    top: 77%;
+    left: -10%;
+    width: 402.164px;
+   height: 108.086px;
+   background: linear-gradient(360deg, #059669 0%, #10B981 100%);
+}
+.remaining-time h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Work Sans;
+    font-size: 49px;
+    font-weight: 700;
+}
+.remaining-time p{
+    color: #fff;
+    text-align: center;
+    margin-top: -4%;
+}
+.remaining-time p span{
+  
+        color: #FFF;
+       font-family: Work Sans;
+       font-size: 16px;
+       font-weight: 500;
+       margin-left: 35px;
+}
+/* section-1 */
+.section-1{
+    background: linear-gradient(45deg, #059669 0%, #10B981 100%);
+}
+
+.section-1 .tissue-massage-content h1,
+.section-1 .facial-maddage-content h1,
+.section-1 .body-treatment-content h1{
+    color: #ECFDF5;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+@media screen and (max-width: 767px) {
+    /* .section-1 .row{
+        text-align: center;
+    } */
+    .border-line img{
+        width: 60% !important;
+    }
+    
+.price-spa{
+    display: flex;
+    justify-content: left !important;
+}
+.price-spa .spa{
+    margin-left: 27% !important;
+}
+    .section-1 .tissue-massage-content h1,
+.section-1 .facial-maddage-content h1,
+.section-1 .body-treatment-content h1{
+    font-size: 26px;
+}
+}
+
+
+.price-spa{
+    display: flex;
+    justify-content: space-between;
+}
+.price-spa h6{
+color: #fff;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 140%
+}
+.price-spa .Rp{
+    border-radius: 20px;
+    background-color: #047857;
+    padding: 2px 10px;
+}
+.price-spa .spa{
+    margin-right: 28px;
+}
+.tissue-massage-content .bg,
+.facial-maddage-content .bg,
+.body-treatment-content .bg{
+    background: #047857;
+    width: 378.714px;
+    height: 252.476px;
+    position: relative;
+}
+.tissue-massage-content .image{
+    background-image: url('images/image\ 1\ \(2\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 378.714px;
+    height: 251.541px;
+    position: absolute;
+    top: -3%;
+    left: 3%;
+}
+.body-treatment-content .image{
+    background-image: url('images/image\ 1\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 378.714px;
+    height: 251.541px;
+    position: absolute;
+    top: -3%;
+    left: 3%;
+}
+.facial-maddage-content .image{
+    background-image: url("images/image\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 378.714px;
+    height: 251.541px;
+    position: absolute;
+    top: -3%;
+    left: 3%;
+}
+.select-pakage h5{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 140%;
+}
+.section-2{
+    background-color: #fff;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.section-2 .btn-services{
+    width: 228px;
+    height: 60px;
+    color: #fff;
+    border: none;
+    font-family: Work Sans;
+    font-size: 18px;
+    background: linear-gradient(270deg, #059669 0%, #10B981 100%);
+   margin-left: 40%;
+}
+.section-2 .bg-green{
+    background: linear-gradient(46deg, #059669 0%, #10B981 100%);
+    width: 1364px;
+    height: 451px;
+    flex-shrink: 0;
+    margin-top: 15%;
+    position: relative;
+}
+.section-2 .suger-scrub-content{
+    width: 772px;
+    height: 485px;
+    flex-shrink: 0;
+    background: #ECFDF5;
+    position: absolute;
+    top: -15%;
+    left: -5%;
+}
+.btn-product{
+    width: 170px;
+    height: 34px;
+    background: #047857;
+    color: #FFF;
+    border: none;
+    font-family: Work Sans;
+    font-size: 18px;
+}
+.suger-scrub-content{
+    padding: 5%;
+}
+.suger-scrub-content h1{
+    color: #047857;
+    font-family: Playfair Display;
+    font-weight: 700;
+    margin-bottom: 4%;
+}
+.suger-scrub-content p{
+color: #047857;
+font-family: Work Sans;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 27px;
+width: 504px;
+}
+.suger-scrub-content .ingredient{
+    font-style: normal !important;
+    width: 477px;
+}
+.suger-scrub-content h6{
+    color: #047857;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Work Sans;
+}
+.suger-scrub-content .border-line-3{
+    height: 2px;
+    color: #047857;
+    margin-top: -15px;
+}
+.right-image img{
+    position: absolute;
+    top: -48%;
+    right: 9%;
+}
+/* footer */
+footer{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+@media screen and (max-width: 767px) {
+    footer .copyright{
+        margin-top: 6% !important;
+    }
+    footer .about-content{
+        margin-left: 0% !important;
+    }
+    footer .article-content{
+        margin-left: 0% !important;
+    }
+    footer .contact-content{
+        margin-left: 0% !important;
+    }
+    .email-input{
+        padding-top: 5% !important;
+        width: 60%;
+    }
+    footer .footer-list li{
+       font-size: 16px !important;
+    }
+}
+footer .footer-logo .logo-text{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17.6px; /* 92.632% */
+    letter-spacing: -0.76px;
+    background: linear-gradient(45deg, #059669 0%, #10B981 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer .copyright{
+    color: #064E3B;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 26%;
+}
+footer .footer-list li{
+    list-style: none;
+    color: #064E3B;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.about-content h6,.article-content h6,.contact-content h6,.promos-content h6{
+    color: #064E3B;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.footer-list{
+    padding-left: 0%;
+}
+footer .about-content{
+    margin-left: -5%;
+}
+footer .article-content{
+    margin-left: -13%;
+}
+footer .contact-content{
+    margin-left: -13%;
+}
+.promos-content p{
+    color: #CFDAD7;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.email-input{
+    border-bottom: 2px solid  #064E3B;
+    padding-top: 15%;
+}

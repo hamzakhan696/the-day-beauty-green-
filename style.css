@@ -28,7 +28,8 @@ body{
        text-align: center;
     }
     .main-heading h1{
-        line-height: 65px !important;
+        line-height: 62px !important;
+        font-size:50px !important ;
     }
     .header-btn{
       text-align: center;
@@ -40,6 +41,7 @@ body{
     .header-image img{
         height: 100%;
         width: 100%;
+        
     }
     .grand-opening{
         width: 350px !important;
@@ -53,14 +55,7 @@ body{
         width: 302.164px !important;
        height: 98.086px !important ;
     }
-    .tissue-massage-content,.facial-maddage-content,.body-treatment-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-       margin-top: 5%;
-    }
+   
   }
   @media screen and (max-width: 497px) {
     .grand-opening{
@@ -174,14 +169,26 @@ body{
     .border-line img{
         width: 90% !important;
     }
-    
+    .tissue-massage-content,.facial-maddage-content,.body-treatment-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       margin-top: 5%;
+    }
 .price-spa{
     display: flex;
-    justify-content: space-between!important;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.price-spa .spa{
-    margin-left: 50% !important;
+.price-spa .Rp{
+    border-radius: 20px;
+    background-color: #047857;
+    padding: 2px 10px;
+      margin-left: -30%;
 }
+
     .section-1 .tissue-massage-content h1,
 .section-1 .facial-maddage-content h1,
 .section-1 .body-treatment-content h1{
@@ -191,10 +198,10 @@ body{
 }
 
 
-.price-spa{
+/* .price-spa{
     display: flex;
     justify-content: space-between;
-}
+} */
 .price-spa h6{
 color: #fff;
 font-family: Work Sans;
@@ -208,7 +215,7 @@ line-height: 140%
     padding: 2px 10px;
 }
 .price-spa .spa{
-    margin-right: 28px;
+    margin-right: 8px;
 }
 .tissue-massage-content .bg,
 .facial-maddage-content .bg,
@@ -345,17 +352,27 @@ width: 504px;
     position: absolute;
     bottom: -80%;
     right: -100%;
+    max-width: 100%;
+    height: auto;
 }
 @media screen and (max-width: 767px) {
     .right-image img{
         bottom: 0%;
         right: 0%;
-        display: none;
     }
-    .right-image{
-        display: flex;
-        justify-content: center;
+    .bg-green {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+    .suger-scrub-content {
+        order: 2;
+    }
+
+    .right-image {
+        order: 1;
+    }
+    
 }
 @media screen and (max-width: 567px) {
     .suger-scrub-content p{
@@ -378,6 +395,7 @@ footer{
     }
     footer .about-content{
         margin-left: 0% !important;
+        margin-bottom: 5%;
     }
     footer .article-content{
         margin-left: 0% !important;

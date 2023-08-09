@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -75,7 +76,6 @@ body{
     font-weight: 900;
     line-height: 80px;
     margin-top:20%;
-   
 }
 .header-btn .btn-member{
     padding: 14px 28px;
@@ -85,6 +85,11 @@ body{
     font-size: 18px;
     line-height: 140%;
 }
+.header-btn .btn-member:hover{
+    background: #fff !important;
+    color: #059669;
+    border: 1px solid #10B981;
+}
 .header-btn .btn-pricing{ 
     padding: 14px 28px;
     border: 1px solid #10B981;
@@ -93,6 +98,10 @@ body{
     font-weight: 600;
     line-height: 140%;
     background-color: #fff;
+}
+.header-btn .btn-pricing:hover{
+    background: linear-gradient(0deg, #059669 0%, #36DCA5 100%);
+    color: #fff;
 }
 .header-image img{
     height: 100%;
@@ -120,9 +129,9 @@ body{
 }
 .remaining-time{
     position: absolute;
-    top: 77%;
+    top: 76%;
     left: -10%;
-    width: 402.164px;
+    width: 412.164px;
    height: 108.086px;
    background: linear-gradient(360deg, #059669 0%, #10B981 100%);
 }
@@ -176,6 +185,7 @@ body{
         justify-content: center;
         text-align: center;
        margin-top: 5%;
+       
     }
 .price-spa{
     display: flex;
@@ -232,7 +242,9 @@ line-height: 140%
     position: absolute;
     top: -3%;
     left: 3%;
+    
 }
+
 .body-treatment-content .image img{
     width: 378.714px;
     height: 251.541px;
@@ -287,7 +299,6 @@ line-height: 140%
 .btn-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 15%;
     padding-top: 5%;
 }
 .section-2 .bg-green{
@@ -295,29 +306,30 @@ line-height: 140%
     width: 100%;
     height: 100%;
     flex-shrink: 0;
-    margin-top: 10%;
-    position: relative;
+    margin-top: 15%;
+    
 }
+
 .section-2 .suger-scrub-content{
-    width: 100%;
-    height: 100%;
+    width: 772px;
+    height: 485px;
     flex-shrink: 0;
     background: #ECFDF5;
-    top: -25%;
-    
+    margin-top: -10%;
+    margin-bottom:10%;
+    margin-left: -15%;
+    padding: 15% 10%;
 }
 .btn-product{
     width: 170px;
     height: 34px;
     background: #047857;
-    color: #FFF;
+    color: #ECFDF5;
     border: none;
     font-family: Work Sans;
     font-size: 18px;
 }
-.suger-scrub-content{
-    padding: 5%;
-}
+
 .suger-scrub-content h1{
     color: #047857;
     font-family: Playfair Display;
@@ -348,10 +360,13 @@ width: 504px;
     color: #047857;
     margin-top: -15px;
 }
-.right-image img{
+.image-container{
+    position: relative;
+}
+.right-image{
     position: absolute;
     bottom: -80%;
-    right: -100%;
+   left: 50%;
     max-width: 100%;
     height: auto;
 }
@@ -371,6 +386,12 @@ width: 504px;
 
     .right-image {
         order: 1;
+    }
+    .btn-container {
+        padding-bottom: 15%;
+    }
+    .section-2 .bg-green{
+        margin-top: 10%;
     }
     
 }
@@ -402,10 +423,6 @@ footer{
     }
     footer .contact-content{
         margin-left: 0% !important;
-    }
-    .email-input{
-        padding-top: 5% !important;
-        width: 60%;
     }
     footer .footer-list li{
        font-size: 16px !important;
@@ -477,6 +494,18 @@ footer .contact-content{
 .email-input{
     border-bottom: 2px solid  #064E3B;
     padding-top: 15%;
+    width: 100%;
+}
+.email-input input{
+    border: none;
+}
+.email-input input:focus{
+    box-shadow: none;
+}
+.email-input input::placeholder{
+    color: #CFDAD7;
+    font-family: Work Sans;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 597px) {

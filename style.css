@@ -56,17 +56,18 @@ body{
         width: 302.164px !important;
        height: 98.086px !important ;
     }
+    
+  
    
   }
   @media screen and (max-width: 497px) {
     .grand-opening{
-        width: 300px !important;
+        width: 320px !important;
     }
     .remaining-time{
-        width: 292.164px !important;
+        width: 302px !important;
     }
     
-   
 }
  
 .main-heading h1{
@@ -170,14 +171,14 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 54px;
+    
+}
+.border-line{
+    border-bottom: 2px dashed #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 @media screen and (max-width: 767px) {
-    /* .section-1 .row{
-        text-align: center;
-    } */
-    .border-line img{
-        width: 90% !important;
-    }
     .tissue-massage-content,.facial-maddage-content,.body-treatment-content{
         display: flex;
         flex-direction: column;
@@ -206,12 +207,6 @@ body{
     
 }
 }
-
-
-/* .price-spa{
-    display: flex;
-    justify-content: space-between;
-} */
 .price-spa h6{
 color: #fff;
 font-family: Work Sans;
@@ -242,7 +237,6 @@ line-height: 140%
     position: absolute;
     top: -3%;
     left: 3%;
-    
 }
 
 .body-treatment-content .image img{
@@ -303,9 +297,6 @@ line-height: 140%
 }
 .section-2 .bg-green{
     background: linear-gradient(46deg, #059669 0%, #10B981 100%);
-    width: 100%;
-    height: 100%;
-    flex-shrink: 0;
     margin-top: 15%;
     
 }
@@ -318,7 +309,7 @@ line-height: 140%
     margin-top: -10%;
     margin-bottom:10%;
     margin-left: -15%;
-    padding: 15% 10%;
+    padding: 5rem 4rem;
 }
 .btn-product{
     width: 170px;
@@ -337,14 +328,13 @@ line-height: 140%
     margin-bottom: 4%;
 }
 .suger-scrub-content p{
-color: #047857;
-font-family: Work Sans;
-font-size: 20px;
-font-style: italic;
-font-weight: 400;
-line-height: 27px;
-width: 504px;
-}
+    color: #047857;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    }
 .suger-scrub-content .ingredient{
     font-style: normal !important;
     width: 477px;
@@ -511,4 +501,51 @@ footer .contact-content{
     .contact-content,.promos-content{
         flex: 50%;
     }
+}
+
+
+
+
+
+/*  */
+.bg-green{
+    height: 500px;
+}
+@media (min-width: 992px) {
+    .bg-green{
+        margin-left: 12rem;
+    }
+}
+@media (max-width: 992px) {
+    .bg-green{
+        height: 100%;
+    }
+    .bg-green .suger-scrub-content{
+        margin: 0;
+        padding: 3rem 2rem 0;
+    }
+}
+header{
+    overflow: hidden;
+}
+.image-container{
+    position: relative;
+    /* left: -15rem; */
+    top: -8rem;
+}
+/* .image-container img{
+    height: 600px;
+} */
+.responsive-image{
+    width: 100%;
+}
+
+button{
+    background: transparent;
+    color: #059669;
+    border: none;
+    border-bottom: 2px solid #059669;
+    outline: none;
+    box-shadow: none;
+    padding: 10px 15px;
 }

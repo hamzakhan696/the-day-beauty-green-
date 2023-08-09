@@ -44,28 +44,19 @@ body{
         width: 100%;
         
     }
-    .grand-opening{
-        width: 350px !important;
-        height: 90px !important;
-        top: 60% !important;
-    left: 10% !important;
-     }
-     .remaining-time{
-        top: 67% !important;
-        left: 10% !important;
-        width: 302.164px !important;
-       height: 98.086px !important ;
-    }
+    
     
   
    
   }
-  @media screen and (max-width: 497px) {
+  @media screen and (max-width: 992px) {
     .grand-opening{
-        width: 320px !important;
+        left: 5%!important;
+        width: 100%;
     }
     .remaining-time{
-        width: 302px !important;
+        left: 5% !important;
+        width: 100%;
     }
     
 }
@@ -187,23 +178,20 @@ body{
 }
 
 @media screen and (max-width: 992px) {
-    .tissue-massage-content .bg .image,.facial-maddage-content .bg,.body-treatment-content .bg{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-       margin-top: 5%;
-    }
 
 .price-spa .Rp{
     border-radius: 20px;
     background-color: #047857;
     padding: 2px 10px;
-      margin-left: -30%;
+    margin-left: -0%;
 }
-
 }
+/* .tissue-massage-content {
+    box-shadow: 0 0 10px rgba(5, 150, 105, 1);
+}
+.facial-maddage-content{
+    box-shadow: 0 0 10px  rgba(16, 185, 129, 1);
+} */
 
 .price-spa h6{
 color: #fff;

@@ -171,14 +171,10 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 54px;
-    
-}
-.border-line{
     border-bottom: 2px dashed #fff;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding: 10px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1250px) {
     .tissue-massage-content,.facial-maddage-content,.body-treatment-content{
         display: flex;
         flex-direction: column;
@@ -186,13 +182,20 @@ body{
         justify-content: center;
         text-align: center;
        margin-top: 5%;
-       
     }
-.price-spa{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
 }
+
+@media screen and (max-width: 992px) {
+    .tissue-massage-content .bg .image,.facial-maddage-content .bg,.body-treatment-content .bg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       margin-top: 5%;
+    }
+
 .price-spa .Rp{
     border-radius: 20px;
     background-color: #047857;
@@ -200,13 +203,8 @@ body{
       margin-left: -30%;
 }
 
-    .section-1 .tissue-massage-content h1,
-.section-1 .facial-maddage-content h1,
-.section-1 .body-treatment-content h1{
-    font-size: 26px;
-    
 }
-}
+
 .price-spa h6{
 color: #fff;
 font-family: Work Sans;
@@ -221,6 +219,8 @@ line-height: 140%
 }
 .price-spa .spa{
     margin-right: 8px;
+    display: flex;
+    justify-content: space-between !important;
 }
 .tissue-massage-content .bg,
 .facial-maddage-content .bg,
@@ -230,48 +230,28 @@ line-height: 140%
     height: 252.476px;
     position: relative;
 }
-.tissue-massage-content .image img{
-  
-    width: 370.714px;
-    height: 251.541px;
+.tissue-massage-content .image img,
+.body-treatment-content .image img,
+.facial-maddage-content .image img
+{
+    width: 100%;
     position: absolute;
     top: -3%;
     left: 3%;
 }
 
-.body-treatment-content .image img{
-    width: 378.714px;
-    height: 251.541px;
-    position: absolute;
-    top: -3%;
-    left: 3%;
-}
-.facial-maddage-content .image img{
-    width: 378.714px;
-    height: 251.541px;
-    position: absolute;
-    top: -3%;
-    left: 3%;
-}
-@media screen and (max-width: 447px) {
-    .body-treatment-content .image img,
-    .facial-maddage-content .image img,
-    .tissue-massage-content .image img{
-        width: 305.714px;
-        height: 195.541px;
-    }
-    .tissue-massage-content .bg,
-.facial-maddage-content .bg,
-.body-treatment-content .bg{
-        width: 313.714px;
-        height: 195.476px;
-    }
-}
+
 .select-pakage h5{
     color: #FFF;
     font-family: Work Sans;
     font-size: 24px;
     line-height: 140%;
+}
+.select-pakage .fa{
+color: #fff;
+font-size: 23px;
+margin-top: 7px;
+margin-right: 5px;
 }
 /* 
 .section-2 */
@@ -460,6 +440,9 @@ footer .footer-list li{
 
 .footer-list{
     padding-left: 0%;
+}
+.footer-list li .fa {
+    color: #064E3B;
 }
 footer .about-content{
     margin-left: -5%;

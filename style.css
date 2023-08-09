@@ -19,7 +19,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
     .logo {
       display: flex;
       justify-content: center;

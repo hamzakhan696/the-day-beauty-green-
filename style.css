@@ -163,6 +163,18 @@ body{
 .section-1 {
     background: linear-gradient(45deg, rgba(5, 150, 105, 1) 0%,  rgba(16, 185, 129, 1) 100%);
 }
+.section-1 .tissue-massage-content{
+    background-color:rgba(5, 150, 105, 1) ;
+    opacity: 0.9;
+}
+
+.section-1 .facial-maddage-content {
+    background-color: rgba(5, 150, 105, 1);
+    opacity: 0.7;
+}
+.section-1 .body-treatment-content{
+    background-color:rgba(5, 150, 105, 1);
+}
 
 .section-1 .tissue-massage-content h1,
 .section-1 .facial-maddage-content h1,
@@ -182,6 +194,17 @@ body{
         display: flex;
         justify-content: center;
     }
+}
+.section-1 .tissue-massage-content{
+    background-color:rgba(5, 150, 105, 1) ;
+}
+
+.section-1 .facial-maddage-content {
+    background-color: rgb(5, 175, 121);
+    opacity: 0.9;
+}
+.section-1 .body-treatment-content{
+    background-color:rgba(5, 150, 105, 1);
 }
 
 .price-spa h6{
@@ -221,12 +244,20 @@ line-height: 140%
     font-family: Work Sans;
     font-size: 24px;
     line-height: 140%;
+    padding-bottom: 15%;
 }
 .select-pakage .fa{
 color: #fff;
 font-size: 23px;
 margin-top: 7px;
 margin-right: 5px;
+
+}
+@media screen and (max-width: 1250px) {
+    .select-pakage h5{
+        padding-bottom: 0%;
+        
+    }
 }
 
 /* section-2 */

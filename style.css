@@ -157,7 +157,9 @@ body{
        font-weight: 500;
        margin-left: 35px;
 }
+
 /* section-1 */
+
 .section-1 {
     background: linear-gradient(45deg, rgba(5, 150, 105, 1) 0%,  rgba(16, 185, 129, 1) 100%);
 }
@@ -182,14 +184,6 @@ body{
     }
 }
 
-/* .tissue-massage-content {
-    box-shadow: 0 0 10px rgba(5, 150, 105, 1);
-}
-.facial-maddage-content{
-    box-shadow: 0 0 10px  rgba(16, 185, 129, 1);
-} */
-
-
 .price-spa h6{
 color: #fff;
 font-family: Work Sans;
@@ -207,14 +201,7 @@ line-height: 140%
     display: flex;
     justify-content: space-between !important;
 }
-/* .tissue-massage-content .bg,
-.facial-maddage-content .bg,
-.body-treatment-content .bg{
-    background: #047857;
-    width: 378px;
-    height: 252px;
-    position: relative;
-} */
+
 .tissue-massage-content .image img,
 .body-treatment-content .image img,
 .facial-maddage-content .image img
@@ -229,10 +216,6 @@ line-height: 140%
     box-shadow: -9px 12px 0px 0px rgba(4, 120, 87, 1);
 }
 
-
-
-
-
 .select-pakage h5{
     color: #FFF;
     font-family: Work Sans;
@@ -245,13 +228,11 @@ font-size: 23px;
 margin-top: 7px;
 margin-right: 5px;
 }
-/* 
-.section-2 */
+
+/* section-2 */
 
 .section-2{
     background-color: #fff;
-    /* margin-top: 3%;
-    margin-bottom: 5%; */
 }
 .section-2 .btn-services{
     width: 228px;
@@ -364,6 +345,7 @@ margin-right: 5px;
 }
 
 /* footer */
+
 footer{
     padding-top: 10%;
     padding-bottom: 5%;
@@ -478,11 +460,6 @@ footer .contact-content{
     }
 }
 
-
-
-
-
-/*  */
 .bg-green{
     height: 500px;
 }
@@ -505,12 +482,9 @@ header{
 }
 .image-container{
     position: relative;
-    /* left: -15rem; */
     top: -8rem;
 }
-/* .image-container img{
-    height: 600px;
-} */
+
 .responsive-image{
     width: 100%;
 }

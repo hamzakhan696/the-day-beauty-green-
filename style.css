@@ -222,6 +222,14 @@ line-height: 140%
     width: 100%;
     
 }
+.tissue-massage-content .image,
+.body-treatment-content .image,
+.facial-maddage-content .image
+{
+    box-shadow: -9px 12px 0px 0px rgba(4, 120, 87, 1);
+}
+
+
 
 
 
